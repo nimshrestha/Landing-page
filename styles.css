@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #1f2937;
+    padding: 12px 64px;
+    
+}
+
+.logo a{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.nav-bar {
+   display: flex;
+   list-style-type: none;
+   gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+
