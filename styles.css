@@ -6,12 +6,12 @@
 }
 
 .padding-horizontal {
-    padding: 0px 64px;
+    padding: 40px 64px;
 }
 
 body{
     background-color: rgb(7, 7, 7);
-    padding: 0px 100px;
+    /* padding: 0px 100px; */
    
     
 }
@@ -19,7 +19,7 @@ body{
 .container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
     /* border: 1px solid blue; */
     height: 100vh;
     background-color: #1f2937;
@@ -63,6 +63,7 @@ a {
     /* border: 1px solid; */
     padding-top: 40px;
     background-color: #1f2937;
+    gap: 40px;
 }
 
 .hero-image {
@@ -96,7 +97,7 @@ a {
     color: #e5e7eb;
     font-size: 14px;
     /* border: 1px solid; */
-    width: 40ch;
+    /* width: 40ch; */
 }
 
 .signup {
@@ -111,10 +112,9 @@ a {
 
 .info-section {
     display: flex;
-    border: 1px solid;
+    /* border: 1px solid; */
     flex-direction: column;
-    /* align-items: center; */
-    padding-top: 40px;
+    /* align-items: center; */ 
     gap: 40px;
     background-color: #f9faf8;   
 }
@@ -123,14 +123,14 @@ a {
     font-size: 20px;
     color: #1f2937;
     font-weight: 900;
-    border: 1px solid;
+    /* border: 1px solid; */
     text-align: center;
 }
 
 .card-section {
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* flex-wrap: wrap; */
 }
 
@@ -146,7 +146,7 @@ a {
 .card-image {
     width: 120px;
     height: 120px;
-    border: 2px solid  #3882f6;
+    border: 3px solid  #3882f6;
     border-radius: 10px; 
 }
 
@@ -158,3 +158,82 @@ a {
     font-size: 12px;
     /* font-weight: 600; */
 }
+
+.quote-section {
+    
+    background-color: #bcbec2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid; */
+    padding: 80px 64px;
+    
+}
+
+.quote-text {
+    /* border: 1px solid; */
+    width: 60ch;
+    color: #1f2937;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 130%;
+    padding-left: 40px;
+    
+    
+}
+
+.quote-author {
+    /* border: 1px solid; */
+    margin-left: 450px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.call-to-action {
+    background-color:#f9faf8;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 80px 64px;
+}
+
+.cta-container {
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: #3882f6;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 60px;
+}
+
+.cta-title {
+    color:#e5e7eb;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cta-subtitle {
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.cta-button .signup{
+    border: 1px solid #e5e7eb;
+    
+}
+
+.footer {
+    padding: 20px 64px;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 4px;
+    background-color: #1f2937;
+}
+
